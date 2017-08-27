@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/multimedia/maestro-padres.jpg" />
+        <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/multimedia/bannerAC.png" />
         <h1>Agente Colaborativo</h1>
-        <p class="lead">Es una plataforma web para el sector educativo que fomenta la colaboración en el intercambio de información entre maestros, padres y estudiantes.</p>
+        <p class="lead">Es una plataforma web y asistente virtual para el sector educativo que fomenta la colaboración en el intercambio de información entre maestros, padres y estudiantes.</p>
         <p><a href="Account/Login" class="btn btn-primary btn-lg">Inicio Sesion &raquo;</a></p>
         <p class="lead">La plataforma fomenta el uso de las comunicaciones como Internet y Teléfonos Móviles para mejorar significativamente el rendimiento escolar de los estudiantes y a largo plazo mejorar el índice ISP en su pilar Fundamentos del  Bienestar (Acceso a conocimientos, información y comunicaciones.)</p>
     </div>

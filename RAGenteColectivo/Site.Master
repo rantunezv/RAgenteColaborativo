@@ -46,6 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/multimedia/ArteLogo AC.png" Height="100px" />
                     <a class="navbar-brand" runat="server" href="~/">Agente Colaborativo-Edicion Educativa</a>
                 </div>
                 <div class="navbar-collapse collapse">
