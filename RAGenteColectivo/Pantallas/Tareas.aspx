@@ -5,7 +5,7 @@
     <asp:Label ID="Label1" runat="server" Text="ASIGNACION DE TAREAS" Font-Bold="True" Font-Size="25pt"></asp:Label>
      <hr />
     <asp:Button ID="Button1" runat="server" Text="CREAR TAREA"  /> <asp:Button ID="Button2" runat="server" Text="CUMPLIMIENTO POR ALUMNO" OnClick="Button2_Click" /><asp:Button ID="Button3" runat="server" Text="REPORTES"  />
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="ClaseID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical">
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="ClaseID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical" Font-Bold="True" Font-Size="14pt">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:CommandField ShowSelectButton="True" />

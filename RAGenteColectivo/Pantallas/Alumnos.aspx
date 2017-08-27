@@ -4,8 +4,8 @@
      <hr />
     <asp:Label ID="Label1" runat="server" Text="REGISTRO DE ALUMNOS POR FECHA DE INGRESO" Font-Bold="True" Font-Size="25pt"></asp:Label>
      <hr />
-    <asp:Button ID="Button1" runat="server" Text="EXPORTAR ALUMNOS" /> <asp:Button ID="Button2" runat="server" Text="ADICIONAR INDIVIDUAL" /><asp:Button ID="Button3" runat="server" Text="LISTADO ALUMNOS" />
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="AlumnoID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical">
+    <asp:Button ID="Button1" runat="server" Text="EXPORTAR ALUMNOS" OnClick="Button1_Click" /> <asp:Button ID="Button2" runat="server" Text="ADICIONAR INDIVIDUAL" /><asp:Button ID="Button3" runat="server" Text="LISTADO ALUMNOS" />
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="AlumnoID" DataSourceID="SqlDataSource1" ForeColor="Black" GridLines="Vertical" Font-Bold="True" Font-Size="12pt">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:CommandField ShowSelectButton="True" />
