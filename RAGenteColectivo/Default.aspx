@@ -3,40 +3,39 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/multimedia/maestro-padres.jpg" />
+        <h1>Agente Colaborativo</h1>
+        <p class="lead">Es una plataforma web para el sector educativo que fomenta la colaboración en el intercambio de información entre maestros, padres y estudiantes.</p>
+        <p><a href="Account/Login" class="btn btn-primary btn-lg">Inicio Sesion &raquo;</a></p>
+        <p class="lead">La plataforma fomenta el uso de las comunicaciones como Internet y Teléfonos Móviles para mejorar significativamente el rendimiento escolar de los estudiantes y a largo plazo mejorar el índice ISP en su pilar Fundamentos del  Bienestar (Acceso a conocimientos, información y comunicaciones.)</p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Accesos a conocimientos básicos- Analitica</h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+– Cobertura en educacion primaria.
+– Cobertura en educacion secundaria.
+– Cobertura en educacion media.
+
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Visualizar</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Acceso a Información y Comunicaciones-Analitica</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+             – Penetración de internet.
+– Usuarios de telefonía móvil.
+– Uso de PC en hogares.
+
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Visualizar</a>
             </p>
         </div>
+
     </div>
 
 </asp:Content>

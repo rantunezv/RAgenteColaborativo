@@ -10,7 +10,7 @@
 namespace RAGenteColectivo.Pantallas {
     
     
-    public partial class anuncio {
+    public partial class Incidencia {
         
         /// <summary>
         /// Image1 control.
