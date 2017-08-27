@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="menu.aspx.cs" Inherits="RAGenteColectivo.Pantallas.menu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-
+    <hr />
+    <div></div>
     <div>
         <asp:Image ID="Image1" runat="server" Height="125px" ImageUrl="~/multimedia/alumnos.jpg" />
        <p><a href="Alumnos" class="btn btn-primary btn-lg">Registro de Alumnos Matriculados &raquo;</a></p>

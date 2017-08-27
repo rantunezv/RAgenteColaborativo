@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace RAGenteColectivo.Pantallas
 {
-    public partial class Tareas : System.Web.UI.Page
+    public partial class RPTConocimientosBasicos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("TareaCumplimiento");
         }
     }
 }

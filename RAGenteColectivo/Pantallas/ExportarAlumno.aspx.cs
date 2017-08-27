@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace RAGenteColectivo.Pantallas
 {
-    public partial class EncuestaISP : System.Web.UI.Page
+    public partial class ExportarAlumno : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,12 +16,7 @@ namespace RAGenteColectivo.Pantallas
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("preguntas");
-        }
 
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("RPTAccesoaComunicaciones");
         }
     }
 }

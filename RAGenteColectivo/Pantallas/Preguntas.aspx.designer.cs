@@ -10,7 +10,7 @@
 namespace RAGenteColectivo.Pantallas {
     
     
-    public partial class Alumnos {
+    public partial class Preguntas {
         
         /// <summary>
         /// Label1 control.

@@ -20,7 +20,7 @@
 
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Visualizar</a>
+                <p><a href="Pantallas/RPTAccesoaComunicaciones" class="btn btn-primary btn-lg">Visualizar &raquo;</a></p>
             </p>
         </div>
         <div class="col-md-4">
@@ -32,7 +32,7 @@
 
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Visualizar</a>
+                <p><a href="Pantallas/RPTConocimientosBasicos" class="btn btn-primary btn-lg">Visualizar &raquo;</a></p>
             </p>
         </div>
 

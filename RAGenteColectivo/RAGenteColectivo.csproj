@@ -215,6 +215,7 @@
     </Content>
     <Content Include="multimedia\alumnos.jpg" />
     <Content Include="multimedia\ArteLogo AC.png" />
+    <Content Include="multimedia\Banner 2.png" />
     <Content Include="multimedia\bannerAC.png" />
     <Content Include="multimedia\encuesta.jpg" />
     <Content Include="multimedia\maestra.jpg" />
@@ -222,7 +223,12 @@
     <Content Include="multimedia\tarea.jpg" />
     <Content Include="Pantallas\AccesoIC.aspx" />
     <Content Include="Pantallas\EncuestaISP.aspx" />
+    <Content Include="Pantallas\ExportarAlumno.aspx" />
     <Content Include="Pantallas\menu.aspx" />
+    <Content Include="Pantallas\Preguntas.aspx" />
+    <Content Include="Pantallas\RPTAccesoaComunicaciones.aspx" />
+    <Content Include="Pantallas\RPTConocimientosBasicos.aspx" />
+    <Content Include="Pantallas\TareaCumplimiento.aspx" />
     <Content Include="Pantallas\Tareas.aspx" />
     <Content Include="WebServices\webhook.asmx" />
     <None Include="DataBase\DataSet1.xsd">
@@ -454,6 +460,13 @@
     <Compile Include="Pantallas\EncuestaISP.aspx.designer.cs">
       <DependentUpon>EncuestaISP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pantallas\ExportarAlumno.aspx.cs">
+      <DependentUpon>ExportarAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\ExportarAlumno.aspx.designer.cs">
+      <DependentUpon>ExportarAlumno.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pantallas\Incidencia.aspx.cs">
       <DependentUpon>Incidencia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -467,6 +480,34 @@
     </Compile>
     <Compile Include="Pantallas\menu.aspx.designer.cs">
       <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\Preguntas.aspx.cs">
+      <DependentUpon>Preguntas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\Preguntas.aspx.designer.cs">
+      <DependentUpon>Preguntas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\RPTAccesoaComunicaciones.aspx.cs">
+      <DependentUpon>RPTAccesoaComunicaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\RPTAccesoaComunicaciones.aspx.designer.cs">
+      <DependentUpon>RPTAccesoaComunicaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\RPTConocimientosBasicos.aspx.cs">
+      <DependentUpon>RPTConocimientosBasicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\RPTConocimientosBasicos.aspx.designer.cs">
+      <DependentUpon>RPTConocimientosBasicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantallas\TareaCumplimiento.aspx.cs">
+      <DependentUpon>TareaCumplimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pantallas\TareaCumplimiento.aspx.designer.cs">
+      <DependentUpon>TareaCumplimiento.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pantallas\Tareas.aspx.cs">
       <DependentUpon>Tareas.aspx</DependentUpon>
